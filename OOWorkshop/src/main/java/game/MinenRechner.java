@@ -4,9 +4,11 @@ package game;
 public class MinenRechner
 {
 
-    public MinenRechner()
+    Spielfeld spielfeld;
+
+    public MinenRechner(Spielfeld spielfeld)
     {
-        // TODO Auto-generated constructor stub
+        this.spielfeld = spielfeld;
     }
 
 }
